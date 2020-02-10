@@ -9,8 +9,8 @@
   "description": "React Native with Fresco Image Downsample disabled - Template",
   "scripts": {
     "build:clean": "rimraf project/android/build && rimraf project/ios/build",
-    "deploy": "npm publish --access=public",
-    "deploy-dry": "npm publish --access=public --dry-run"
+    "deploy": "npm publish --access=public --registry https://registry.npmjs.org/",
+    "deploy-dry": "npm publish --access=public --dry-run --registry https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",

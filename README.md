@@ -5,7 +5,7 @@
 1. Create a new React Native 0.61.5 project using this template:
 
 ```bash
-npx @react-native-community/cli@next init --template=@lytrax\react-native-fresco <ProjectName>
+npx @react-native-community/cli@next init --template=@lytrax/react-native-fresco <ProjectName>
 cd <ProjectName>
 ```
 
