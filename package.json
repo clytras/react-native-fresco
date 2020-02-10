@@ -1,16 +1,31 @@
 {
   "name": "@lytrax/react-native-fresco",
   "version": "1.0.0",
-  "author": "Christos Lytras <christos.lytras@gmail.com> (https://lytrax.io)",
+  "author": {
+    "name": "Christos Lytras",
+    "email": "christos.lytras@gmail.com",
+    "url": "https://lytrax.io"
+  },
   "description": "React Native with Fresco Image Downsample disabled - Template",
   "scripts": {
-    "build:clean": "rimraf project/android/build && rimraf project/ios/build"
+    "build:clean": "rimraf project/android/build && rimraf project/ios/build",
+    "deploy": "npm publish --access=public",
+    "deploy-dry": "npm publish --access=public --dry-run"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/clytras/react-native-fresco"
   },
   "license": "MIT",
+  "files": [
+    "template/",
+    "template.config.js",
+    "README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/clytras/react-native-fresco/issues"
+  },
+  "homepage": "https://github.com/clytras/react-native-fresco#readme",
   "keywords": [
     "react",
     "react-native",

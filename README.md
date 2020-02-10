@@ -37,4 +37,4 @@ yarn android
 
 | Before patch/build | After patch/build |
 |------------------------------------|-------|
-|![Before Fresco patch](https://raw.githubusercontent.com/clytras/react-native-fresco/master/assets/RNFrescoBuild_before_patch.png)|![After Fresco patch](https://raw.githubusercontent.com/clytras/react-native-fresco/master/assets/RNFrescoBuild_after_patch.png)|
+|![Before Fresco patch](https://raw.githubusercontent.com/clytras/react-native-fresco/master/doc/RNFrescoBuild_before_patch.png)|![After Fresco patch](https://raw.githubusercontent.com/clytras/react-native-fresco/master/doc/RNFrescoBuild_after_patch.png)|
