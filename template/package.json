@@ -7,11 +7,14 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fresco-clone": "git clone https://github.com/facebook/fresco.git android/libraries/fresco && cd android/libraries/fresco && git checkout tags/v2.3.0",
+    "fresco-patch": "yarn file-patch ./patches/DecodeProducer.java.diff android/libraries/fresco/imagepipeline/src/main/java/com/facebook/imagepipeline/producers/DecodeProducer.java",
+    "fresco-setup": "yarn fresco-clone && yarn fresco-patch"
   },
   "dependencies": {
     "react": "16.13.1",
-    "react-native": "1000.0.0"
+    "react-native": "0.63.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -19,6 +22,7 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
+    "file-patch": "^0.3.0",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.63.0",
     "react-test-renderer": "16.13.1"
